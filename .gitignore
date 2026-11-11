@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+out/
+*.stl
+*.step
+repo_snapshot.tar.gz
+
+# 저작권 있는 참고 자료 — 저장소에 넣지 않는다
+*논문*.pdf
+SRM_CFD_*.pdf
+Burnback Analysis of Solid Propellant Rocket Motors.pdf
+International Journal of Aerospace Engineering*.pdf
+Solid rocket motor propellant grain burnback*.pdf
+인공신경망에 기반한*.pdf
+_claude_tmp/

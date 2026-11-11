@@ -1,0 +1,17 @@
+numpy>=2.0
+scipy>=1.11
+matplotlib>=3.8
+pytest>=8.0
+scikit-image>=0.22   # reference/SRM_simul 대조(V1-b)용
+
+# 미분가능 이식용 (선택 — 없으면 해당 테스트는 skip)
+# CPU 전용 설치 권장:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.2 ; extra == "diff"
+
+# CAD/몰드 출력용 (gre.export)
+mapbox_earcut>=1.0     # 구멍 있는 단면 삼각분할 (주 경로)
+triangle>=20230923     # 제약 들로네 — earcut 이 윤곽을 못 닫을 때 (시편 빗 모양)
+shapely>=2.0           # 구멍 내부점 (CDT 보조). 없으면 중심점으로 대체
+# STEP 은 선택 — 없으면 STL 만 나오고 보고서에 이유가 적힌다
+cadquery>=2.4 ; extra == "step"

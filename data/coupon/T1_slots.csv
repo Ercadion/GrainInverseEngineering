@@ -1,0 +1,19 @@
+﻿id,design_width_mm,depth_mm,slenderness,master_width_mm,printed,silicone_width_mm,fin_height_mm,filled,tear,tip_deflection_mm,reuse_cycles,note
+A1,0.50,5.0,10.0,,ok,,5,ok,none,,,
+A2,1.00,5.0,5.0,,ok,,5,ok,none,,,
+A3,1.50,5.0,3.3,,ok,,5,ok,none,,,
+A4,2.00,5.0,2.5,,ok,,5,ok,none,,,
+A5,3.00,5.0,1.7,,ok,,5,ok,none,,,
+A6,4.00,5.0,1.2,,ok,,5,ok,none,,,
+B1,0.50,10.0,20.0,,ok,,10,ok,none,,,
+B2,1.00,10.0,10.0,,ok,,10,ok,none,,,
+B3,1.50,10.0,6.7,,ok,,10,ok,none,,,
+B4,2.00,10.0,5.0,,ok,,10,ok,none,,,
+B5,3.00,10.0,3.3,,ok,,10,ok,none,,,
+B6,4.00,10.0,2.5,,ok,,10,ok,none,,,
+C1,0.50,20.0,40.0,,ok,,~10,not_filled,none,,,끝이 곡면 - 세장비 20 부근에서 충전 멈춤 (찢김 아님)
+C2,1.00,20.0,20.0,,ok,,,partial,none,,,"왼쪽 꼭짓점 미충전, 사각 단면 불완전 (찢김 아님)"
+C3,1.50,20.0,13.3,,ok,,20,ok,none,,,
+C4,2.00,20.0,10.0,,ok,,20,ok,none,,,
+C5,3.00,20.0,6.7,,ok,,20,ok,none,,,
+C6,4.00,20.0,5.0,,ok,,20,ok,none,,,
